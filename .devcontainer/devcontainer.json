@@ -6,7 +6,7 @@
 		"vscode": {
 			"settings": {
                 "terminal.integrated.shell.linux": "/bin/bash",
-                "workbench.colorTheme": "Default Dark+",
+                "workbench.colorTheme": "Default Dark Modern",
                 "python.pythonPath": "/usr/local/bin/python",
                 "[python]": {
                     "editor.defaultFormatter": "charliermarsh.ruff"
