@@ -1,0 +1,22 @@
+{
+    "name": "Supabase Storage and DuckDB",
+    "dockerFile": "Dockerfile",
+    "postCreateCommand": "/root/.cargo/bin/uv pip install --system --no-cache -r requirements.txt",
+    "customizations": {
+		"vscode": {
+			"settings": {
+                "terminal.integrated.shell.linux": "/bin/bash",
+                "python.pythonPath": "/usr/local/bin/python",
+                "[python]": {
+                    "editor.defaultFormatter": "charliermarsh.ruff"
+                }
+            },
+			"extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter", 
+                "charliermarsh.ruff"
+			]
+		}
+	},
+    "remoteUser": "root"
+}
