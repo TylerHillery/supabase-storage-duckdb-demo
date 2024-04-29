@@ -1,6 +1,9 @@
 # Supabase Storage and DuckDB: ⚡️ + 🦆 = 💚
 This demo showcases the seamless integration between Supabase Storage and DuckDB.
 
+[![YouTube Video](https://img.youtube.com/vi/diL00ZZ-q50/0.jpg)](https://www.youtube.com/watch?v=diL00ZZ-q50)
+
+
 ## Setup and Installation
 
 You can use GitHub Codespaces, Google Colab or Binder as an easy way to get started.

@@ -18,4 +18,4 @@ RUN apt-get update && \
     && rm -rf /var/lib/apt/lists/*
 
 ADD --chmod=755 https://astral.sh/uv/install.sh /install.sh
-RUN /install.sh
+RUN /install.sh && rm /install.sh
